@@ -5,7 +5,7 @@
     "license": "GPL-2.0+",
     "version": "0.0.1",
     "require": {
-        "dpc-sdp/tide_event": "@dev",
+        "dpc-sdp/tide_event": "^1.2.8",
         "drupal/migrate_cron": "^1.2",
         "drupal/migrate_plus": "4.2",
         "drupal/migrate_tools": "^4.3",
