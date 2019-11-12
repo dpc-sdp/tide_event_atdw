@@ -2,13 +2,12 @@
     "name": "dpc-sdp/tide_event_atdw",
     "description": "Provides event importer from Australian Tourism Data Warehouse for Tide Drupal 8 distribution",
     "type": "drupal-module",
-    "license": "GPL-2.0+",
-    "version": "0.0.1",
+    "license": "GPL-2.0-or-later",
     "require": {
         "dpc-sdp/tide_event": "^1.2.8",
         "drupal/migrate_cron": "^1.2",
         "drupal/migrate_plus": "4.2",
-        "drupal/migrate_tools": "^4.3",
+        "drupal/migrate_tools": "^4.4",
         "drupal/migrate_file": "^1.1"
     },
     "repositories": {
