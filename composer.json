@@ -28,9 +28,6 @@
             },
             "drupal/migrate_cron": {
                 "Provide the ability to execute dependent migrations - https://www.drupal.org/project/migrate_cron/issues/3051619#comment-13087893": "https://www.drupal.org/files/issues/2019-04-30/3051619-migrate_cron-execute_dependencies-2.patch"
-            },
-            "drupal/migrate_tools": {
-                "status is not a log level - https://www.drupal.org/node/3073748": "https://www.drupal.org/files/issues/2019-08-09/3073748-migrate_tools-status_loglevel-2.patch"
             }
         }
     }
