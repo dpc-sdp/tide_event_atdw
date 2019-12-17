@@ -4,7 +4,7 @@
     "type": "drupal-module",
     "license": "GPL-2.0-or-later",
     "require": {
-        "dpc-sdp/tide_event": "^1.2.8",
+        "dpc-sdp/tide_event": "dev-feature/SDPA-2794_migrate_sdp-dpc_modules",
         "drupal/migrate_cron": "^1.2",
         "drupal/migrate_plus": "4.2",
         "drupal/migrate_tools": "^4.4",
