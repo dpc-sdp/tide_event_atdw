@@ -1,13 +1,15 @@
 # tide_event_atdw
 Import Events from Australian Tourism Data Warehouse.
 
+[![CircleCI](https://circleci.com/gh/dpc-sdp/tide_event_atdw.svg?style=svg&circle-token=b2c220627e28781bd41b4f830a21bd441957273c)](https://circleci.com/gh/dpc-sdp/tide_event_atdw)
+
 # CONTENTS OF THIS FILE
 * Introduction
 * Requirements
 * Usage
 
 # INTRODUCTION
-The Tide Event ATDW module provides the functionality to import events from 
+The Tide Event ATDW module provides the functionality to import events from
 Australian Tourism Data Warehouse.
 
 # REQUIREMENTS
@@ -39,7 +41,7 @@ drush migrate-reset-status tide_event_atdw_image
 drush migrate-reset-status tide_event_atdw_image_file
 ```
 
-* When running from Migrate Tools UI, the migrations must be executed in the 
+* When running from Migrate Tools UI, the migrations must be executed in the
 following order:
 
   1. tide_event_atdw_image_file
