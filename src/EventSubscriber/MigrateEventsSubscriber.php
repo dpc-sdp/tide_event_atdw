@@ -13,7 +13,7 @@ use Drupal\tide_event_atdw\Plugin\migrate\source\AtdwEvent;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
 /**
- * Class MigrateEventsSubscriber.
+ * Class MigrateEventsSubscriber for tide_event_atdw.
  */
 class MigrateEventsSubscriber implements EventSubscriberInterface {
 
