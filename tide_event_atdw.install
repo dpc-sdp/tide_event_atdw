@@ -12,6 +12,7 @@ use Drupal\Core\Url;
  * Implements hook_schema().
  */
 function tide_event_atdw_schema() {
+  $schema = [];
   $schema['migrate_tracking_tide_event_atdw'] = [
     'description' => 'Table that contains Product IDs of imported ATDW events.',
     'fields' => [
