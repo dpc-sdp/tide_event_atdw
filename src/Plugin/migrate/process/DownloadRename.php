@@ -96,7 +96,7 @@ class DownloadRename extends Download {
     $retry = $this->configuration['retry'] ?? 0;
     $wait = $this->configuration['retry_wait'] ?? 5;
 
-    list($source, $destination) = $value;
+    [$source, $destination] = $value;
     // Attempt to download with retry.
     do {
       $retry--;
