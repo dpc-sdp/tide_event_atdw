@@ -2,7 +2,7 @@ name: Tide Event ATDW
 type: module
 description: 'Provides event importer from Australian Tourism Data Warehouse for Tide Drupal 8 distribution.'
 package: Tide
-core_version_requirement: ^8.9 || ^9
+core_version_requirement: ^9.5 || ^10
 dependencies:
   - dpc-sdp:tide_event
   - drupal:migrate
